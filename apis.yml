@@ -1,7 +1,26 @@
 aid: svacademy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/svacademy.png
 name: SVAcademy
-description: SVAcademy is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: SV Academy is a tech-sales training and talent-placement organization that
+  runs an intensive Sales Development Representative (SDR) program and places pre-trained,
+  job-ready graduates with employers at no placement fee. It has trained more than 6,000
+  graduates across the U.S. and Canada and is a portfolio company of 500 Global. SV Academy
+  serves two audiences — job seekers who complete the SDR training program with no prior
+  experience or degree required, and employers who hire and onboard vetted, pre-trained SDR
+  talent. The organization publishes no public developer API surface at this time; this
+  profile was surfaced as a 500 Global portfolio company and enriched by the API Evangelist
+  pipeline from SV Academy's public web presence.
 url: https://raw.githubusercontent.com/api-evangelist/svacademy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Education
+- Training
+- Tech Sales
+- Sales Development
+- Talent Placement
+- Career
+- Workforce Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://sv.academy
+- type: About
+  url: https://sv.academy/about
+- type: Blog
+  url: https://sv.academy/blog
+- type: SignUp
+  url: https://apply.workable.com/sv-academy-1/
+- type: Support
+  url: https://sv.academy/contact
+- type: LLMsTxt
+  url: llms/svacademy-llms.txt
+- type: DomainSecurity
+  url: security/svacademy-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
